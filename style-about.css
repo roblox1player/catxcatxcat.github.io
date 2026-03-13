@@ -1,4 +1,4 @@
-<style>
+
  /* idk what im doing this was writen by ai(the @property and keyframes) */
  @property --angle {
   syntax: '<angle>';
@@ -74,4 +74,3 @@ body {
             text-decoration:underline;
             color:white;
         }
-</style>
