@@ -11,6 +11,12 @@
   inherits: false;
 }
 
+.play-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
 @property --negangle {
   syntax: '<angle>';
   initial-value: 0deg;
