@@ -1,5 +1,9 @@
 
  /* idk what im doing this was writen by ai(the @property and keyframes) */
+.hello {
+ text-align:center;
+}
+
  @property --angle {
   syntax: '<angle>';
   initial-value: 0deg;
