@@ -14,7 +14,13 @@
 this is my page yes its cat's page
 </title>
 </head>
+<script>
+function playMusic() {
+  document.getElementById('mySong').play();
+}
+</script>
   <body>
+  
 <div class="idk">
     <img src="https://roblox1player.github.io/mycat.png" alt="this is my discord avatar and also its my irl cat">
     </div>
@@ -22,12 +28,16 @@ this is my page yes its cat's page
     <h1>hello</h1>
     <h1>maybe i need to learn html or maybe yes and yes</h1>
 	<h1><a href="about.html">about me</a></h1>
-	<button><a href="https://discord.com/users/800000021009268747">discord</a></button>
-	
-	<button><a href="https://discord.gg/SVAANSuZca">the discord server i am most in</a></button>
-	
-	<button><a href="https://www.roblox.com/users/914482170/profile">roblox</a></button>
+	<div class="button-row">
+    <button><a href="https://discord.com/users/800000021009268747">discord</a></button>
+    <button><a href="https://discord.gg/SVAANSuZca">the discord server i am most in</a></button>
+    <button><a href="https://www.roblox.com/users/914482170/profile">roblox</a></button>
+</div>
 	</div>
+	  <audio id="mySong" loop>
+  <source src="song1.mp3" type="audio/mpeg">
+</audio>
+<button class="play-button" onclick="playMusic()">🎵 Play Music</button>
 	
   </body>
 </html>
