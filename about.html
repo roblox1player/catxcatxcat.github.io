@@ -14,6 +14,11 @@
 this is my page yes its cat's page
 </title>
 </head>
+<script>
+function playMusic() {
+  document.getElementById('mySong').play();
+}
+</script>
   <body>
 <div class="container">
     <h1>hello, im cat</h1>
@@ -24,5 +29,9 @@ this is my page yes its cat's page
 	<h1>anyways heres my yt <a href="https://www.youtube.com/@meowz401">channel</a></h1>
 	<h1><a href="index.html">go back</a></h1>
 	</div>
+	<audio id="mySong" loop>
+  <source src="song1.mp3" type="audio/mpeg">
+</audio>
+<button class="play-button" onclick="playMusic()">🎵 Play Music</button>
   </body>
 </html>
