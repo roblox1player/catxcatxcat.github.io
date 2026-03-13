@@ -1,8 +1,9 @@
-<style>
+
 
  .idk {
   text-align:center
  }
+
  /* idk what im doing this was writen by ai(the @property and keyframes) */
  @property --angle {
   syntax: '<angle>';
@@ -32,6 +33,18 @@
  to {
    --negangle: 0deg;
  }
+}
+
+ button {
+    background: linear-gradient(var(--angle), #6a5acd, #483d8b); /* gradient background */
+    border: none;                          /* remove default border */
+    color: white;                           /* text color */
+    padding: 12px 24px;                     /* space inside button */
+    font-size: 18px;                         /* text size */
+    font-family: 'Montserrat', sans-serif;	/* match your font */
+	border-radius:15px;
+	margin:10px;
+	animation: rotate 1s linear infinite;
 }
  
  .container {
@@ -75,7 +88,6 @@ body {
   }
  
    a:hover {
-            text-decoration:underline;
+            text-decoration:none;
             color:white;
-        }
-</style>
+   }
