@@ -25,7 +25,7 @@
   }
 }
 
-@keyframes negrotate { /* so maybe this is counter clockwize i made it that so maybe it would work */
+@keyframes negrotate { /* so maybe this is counter clockwise i made it that so maybe it would work */
  from {
    --negangle: 360deg;
  }
@@ -41,7 +41,7 @@
 }
 
 button {
-    background: linear-gradient(var(--angle), #6a5acd, #483d8b); /* gradient background */
+    background: linear-gradient(var(--angle), #000000, #ffffff); /* gradient background */
     border: none;                          /* remove default border */
     color: white;                           /* text color */
     padding: 12px 24px;                     /* space inside button */
@@ -60,7 +60,7 @@ button {
  border-radius:15px;
  text-align:center;
  margin:250px auto;
- background: linear-gradient(var(--negangle), #b566ff 0%, #5c5ef7 100%);
+ background: linear-gradient(var(--negangle), #ffffff 0%, #000000 100%);
  animation: negrotate 1s linear infinite; /* just copied that okay */
  }
  
@@ -71,7 +71,7 @@ button {
 
 body {
   font-family: Montserrat, sans-serif;
-  background: linear-gradient(var(--angle), #0307fc 0%, #8403fc 100%);
+  background: linear-gradient(var(--angle), #000000 0%, #ffffff 100%);
   margin: 0;            
   min-height: 100vh;  
   animation: rotate 1s linear infinite;  
